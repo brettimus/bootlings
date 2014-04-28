@@ -1,3 +1,6 @@
+/*
+ * These vars are used in a call to the custom-button function
+ */
 @font     : #f5f5f5;
 @bg       : #086094;
 @bg-act   : #086094 - #011;
@@ -6,7 +9,17 @@
 @bord-act : #086094 - #011 - #011;
 @name     : primary;
 
-
+/* Calling this function will create a button with the given
+ * [] @font     ::= font color
+ * [] @bg       ::= background color
+ * [] @bg-act   ::= background color (active)
+ * [] @bord     ::= border color
+ * [] @bord-act ::= border color (active)
+ * [] @name     ::= class name prefix
+ *
+ * It can also be used to override default
+ * button colors in Bootstrap 3
+ */
 .custom-button(@name,@font,@bg-act,@bord-act) {
 
 
