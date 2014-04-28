@@ -1,11 +1,11 @@
 bootlings
 =========
 
-===Less files for Bootstrap 3 customization===
+Less files for Bootstrap 3 customization
 
-Either can be used at the command line to produce stylesheets.
+They can be used at the command line to produce stylesheets.
 
-Example:
+For example:
 
 > lessc custom-nav.less mySiteNavColors.css
 
