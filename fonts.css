@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Caudex-R;
+  src: url(./fonts/caudex/Caudex-Regular.ttf);
+}
+@font-face {
+  font-family: Caudex-B;
+  src: url(./fonts/caudex/Caudex-Bold.ttf);
+}
+@font-face {
+  font-family: Caudex-I;
+  src: url(./fonts/caudex/Caudex-Italic.ttf);
+}
+@font-face {
+  font-family: Caudex-BI;
+  src: url(./fonts/caudex/Caudex-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Seaside;
+  src: url(./fonts/SeasideResortNF/SEASRN__.ttf);
+}
+
+@font-face {
+  font-family: Gaspar-B;
+  src: url(./fonts/gaspar/Gaspar_Bold.otf);
+}
+@font-face {
+  font-family: Gaspar-R;
+  src: url(./fonts/gaspar/Gaspar_Regular.otf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Gaspar-B;
+}
+
+body {
+  font-size: 15px;
+  font-family: Caudex-R;
+}
+
+.seaside-heading-1 {
+  font-family: Seaside;
+  font-size: 2.5em;
+}
+.seaside-heading-2 {
+  font-family: Seaside;
+  font-size: 2em;
+}
