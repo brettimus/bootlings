@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Testing Styles </title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./custom-bootstrap.css" />
+    <link rel="stylesheet" href="" /> <!-- PUT YOUR NAV COLOR FILE HERE -->
+    <link rel="stylesheet" href="" /> <!-- PUT YOUR BUTTON COLOR FILE HERE -->
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+  <body>
+
+
+    <nav>
+     <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">               
+        <div class="navbar-header">      
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+	     <span class="icon-bar"></span> 
+          </button>                                      
+	  <a class="navbar-brand" href="#">BRAND</a>
+	</div>  
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>   
+            <li><a href="#">About</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		Featured
+		<b class="caret"></b></a>
+              <ul class="dropdown-menu">                                                                                        
+                <li class="dropdown-header">Articles You Should Read</li>
+                <li class="divider"></li>
+		<li> Top Articles </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elsewhere<b class="caret"></b></a>
+              <ul class="dropdown-menu">                                                                                        
+                <li><a href="http://sin.reed.edu/webapps/">SIN Home</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"><a href="http://sin.reed.edu/webapps/finance/">Finance</a></li>
+              </ul>
+            </li>
+	    
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">
+		<span class="glyphicon glyphicon-user"></span>
+		<span class="smaller-font">
+	  	  User Name <b class="caret"></b>
+		</span>
+	      </a>
+	      <ul class="dropdown-menu">
+		<li role="presentation" class="dropdown-header">
+		  Look in the Mirror
+		</li>	  
+		<li><a href="#">My Profile</a></li>
+		<li class="divider"></li>
+		<!-- FOR LATER USE: CUSTOMIZED FAVORITE LINKS? 
+		     {{userLinks}}
+		     <li><a href="#">My Classifieds</a></li>
+		<li><a href="#">User-specific links</a></li>
+		<li class="divider"></li>
+		-->
+		<li role="presentation" class="dropdown-header">
+		  Customize Your Sin
+		</li>
+		<li><a href="#">
+		    <span class="glyphicon glyphicon-cog"> </span>
+		    Settings
+		</a></li>
+		<li class="divider"></li>
+		
+		<li role="presentation" class="dropdown-header">
+		  GTFO
+		</li>
+		<li>
+		  <a href="/webapps/logout">
+		    <span class="glyphicon glyphicon-plane"></span>
+		    <span class="">Logout</span>
+		  </a>
+		</li>	  
+		<li class="divider"></li>
+		<li class="divider"></li>
+	      </ul>
+	    </li>
+
+<!-- social -->
+	    <li>
+              <a class="social"
+                 href=""
+		 target="_blank" >
+		<img src=""
+		     height=""
+		     width=""
+		     alt="" />
+	      </a>
+	    </li>
+<!-- end social -->
+	  </ul>
+	</div> <!-- /.nav-collapse -->
+      </div>
+    </div> <!-- /.nav -->
+    </nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<h1> Head 1 </h1>
+<h2> Head 2 </h2>
+<h3> Head 3 </h3>
+<h4> Head 4 </h4>
+<h5> Head 5 </h5>
+<h6> Head 6 </h6>
+</div>
+<div class="col-md-4">
+<h3 class="featurette-heading">Special Heading?</h3>
+<p>Look it's a <span class="seaside-heading-1">Seaside 1 </span></p>
+<p>Look it's a <span class="seaside-heading-2">Seaside 2 </span></p>
+<p class="lead"> Leading Text <span class="text-muted">Ooooooh</span></p>
+<p> Oh and this! </p>
+</div>
+<div class="col-md-4">
+<div class="well">
+<b>This is a regular well with bold text</b>
+<i> (and italics!) </i>
+</div> <!--/.well-->
+<div class="well well-lg">
+<b> This is supposed to be a large well with bold text</b>
+<i>Lorem Ipsum</i>
+</div> <!-- /.well ...-->
+</div>
+<div class="col-md-6 col-md-offset-3">
+<h3 class="featurett-heading">Rock this Button</h3>
+<div class="btn-group">
+<button class="btn btn-default">Default</button>
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-warning">Warning</button>
+<button class="btn btn-danger">Danger</button>
+<button class="btn btn-success">Success</button>
+</div> <!-- /.btn-group -->
+<div class="btn-group">
+<button class="btn btn-default active">Default</button>
+<button class="btn btn-primary active">Primary</button>
+<button class="btn btn-warning active">Warning</button>
+<button class="btn btn-danger active">Danger</button>
+<button class="btn btn-success active">Success</button>
+</div>
+<div class="btn-group">
+<button class="btn btn-default disabled">Default</button>
+<button class="btn btn-primary disabled">Primary</button>
+<button class="btn btn-warning disabled">Warning</button>
+<button class="btn btn-danger disabled">Danger</button>
+<button class="btn btn-success disabled">Success</button>
+</div>
+</div>
+</div> <!-- /.row -->
+<hr />
+<h2> Table Responsive </h2>
+<div class="table-responsive">
+<table class="table">
+<tr>
+<th> Standard </td>
+<th>  Responsive </td>
+</tr>
+<tr>
+<td> What does this look like? </td>
+<td> Or this? </td>
+</tr>
+</table>
+</div> <!-- /.table-responsive -->
+<hr />
+<h2>Table Condensed</h2>
+<table class="table table-condensed">
+<tr>
+<th> Std </td>
+<th> Cndnsd </td>
+</tr>
+<tr>
+<td> Ho </td>
+<td> Hey </td>
+</tr>
+</table>
+<hr />
+<h2>Table Hover</h2>
+<table class="table table-hover">
+<tr>
+<th> Standard </td>
+<th> Hover </td>
+</tr>
+<tr>
+<td> Hey there!!!</td>
+<td> Lorem ipsum </td>
+</tr>
+</table>
+</div> <!-- /.container -->
+
+<script src="/bootstrap/assets/js/jquery.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+      // SLIDEDOWN ANIMATION FOR NAV //
+      $('.dropdown').on('show.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+      });
+
+      // SLIDEUP ANIMATION FOR NAV //
+      $('.dropdown').on('hide.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+      });
+
+      // TOOLTIP INIT
+      $(function(){
+        $('').tooltip();
+      });
+
+      $(document).read(function() {
+        {% block on-load %}
+        {% endblock %}
+      });
+</script>
+</body>
+</html>
+
+
