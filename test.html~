@@ -2,7 +2,7 @@
 <html>
   <head>
     <title> Testing Styles </title>
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
     <link rel="stylesheet" href="./custom-test.css" />
     <link rel="stylesheet" href="" /> <!-- PUT YOUR NAV COLOR FILE HERE -->
     <link rel="stylesheet" href="" /> <!-- PUT YOUR BUTTON COLOR FILE HERE -->
@@ -200,8 +200,8 @@
 </table>
 </div> <!-- /.container -->
 
-<script src="./bootstrap/assets/js/jquery.js"></script>
-<script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bootstrap/assets/js/jquery.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
 <script>
       // SLIDEDOWN ANIMATION FOR NAV //
       $('.dropdown').on('show.bs.dropdown', function(e){
