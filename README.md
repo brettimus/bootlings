@@ -7,15 +7,18 @@ bootlings
 + A test template
 + A handful of open-source fonts from font-squirrel
 
-## Example use of the LESS:
-
+## Example use of the LESS
+To produce a stylesheet
+(*mySiteNavColors.css*)
+with your customizations, try
 ```
 lessc custom-nav.less mySiteNavColors.css
 ```
-
-The above ould give you a stylesheet 
-*mySiteNavColors.css*
-that you can link to after the core bootstrap.css.
+or
+```
+lessc custom-button.less mySiteButtons.css
+```
+You can link to these stylesheets *after* the core bootstrap.
 
 ## Testing
 A rudimentary testing template is included as *test.html* 
